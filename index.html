@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hiruth Samarasinghe — Cybersecurity & Network Security</title>
+<title>Dulmeth Arosha — Cybersecurity & Network Security</title>
 <meta name="description" content="Portfolio of Hiruth Samarasinghe, Ethical Hacking & Network Security student. Network infrastructure, security hardening, and offensive security projects.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -406,13 +406,13 @@ code{font-family:var(--mono);font-size:11px;background:var(--bg-raised-2);paddin
 
 <header>
 <nav>
-<div class="logo"><span class="dot"></span>hiruth@security:~$</div>
+<div class="logo"><span class="dot"></span>dulmeth@security:~$</div>
 <ul id="navList">
 <li><a href="#about">about</a></li>
 <li><a href="#skills">skills</a></li>
 <li><a href="#projects">projects</a></li>
-<li><a href="#ctf">ctf</a></li>
-<li><a href="#writeups">write-ups</a></li>
+<!-- <li><a href="#ctf">ctf</a></li> -->
+<!-- <li><a href="#writeups">write-ups</a></li> -->
 <li><a href="#certifications">certs</a></li>
 <li><a href="#roles">roles</a></li>
 <li><a href="#contact">contact</a></li>
@@ -428,7 +428,7 @@ code{font-family:var(--mono);font-size:11px;background:var(--bg-raised-2);paddin
 <div class="terminal">
 <div class="terminal-bar">
 <span class="terminal-dot r"></span><span class="terminal-dot y"></span><span class="terminal-dot g"></span>
-<span class="terminal-title">hiruth@kali: ~</span>
+<span class="terminal-title">dulmeth@kali: ~</span>
 </div>
 <div class="terminal-body" id="termBody"></div>
 </div>
@@ -517,7 +517,7 @@ code{font-family:var(--mono);font-size:11px;background:var(--bg-raised-2);paddin
 
 <hr class="rule">
 
-<!-- ═══ CTF PROFILES ═══
+<!-- ═══ CTF PROFILES (commented out — uncomment when ready to publish) ═══
 <section id="ctf">
 <div class="wrap">
 <div class="section-head reveal">
@@ -526,76 +526,62 @@ code{font-family:var(--mono);font-size:11px;background:var(--bg-raised-2);paddin
 <p class="section-sub">Hands-on offensive security practice outside coursework — all in authorized lab environments.</p>
 </div>
 
-<div class="ctf-grid"> -->
+<div class="ctf-grid">
 
-<!-- TryHackMe — LIVE OFFICIAL BADGE -->
-<!-- <div class="reveal">
-  <a href="https://tryhackme.com/p/Zee25" target="_blank" rel="noopener" class="thm-badge-wrap">
-    <div class="thm-badge-header">
-      <span class="thm-platform-name">TryHackMe</span>
-      <span class="thm-live-pill">LIVE</span>
+  <div class="reveal">
+    <a href="https://tryhackme.com/p/Zee25" target="_blank" rel="noopener" class="thm-badge-wrap">
+      <div class="thm-badge-header">
+        <span class="thm-platform-name">TryHackMe</span>
+        <span class="thm-live-pill">LIVE</span>
+      </div>
+      <div class="thm-iframe-container">
+        <iframe
+          src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=Zee25"
+          style="border:none;width:100%;height:110px;display:block;background:#212C42;">
+        </iframe>
+      </div>
+      <div class="thm-badge-footer">
+        <span>tryhackme.com/p/Zee25</span>
+        <span>↗ view profile</span>
+      </div>
+    </a>
+  </div>
+
+  <a href="https://profile.hackthebox.com/profile/019e4187-201d-72b3-b9be-b80ab38fc50d"
+     target="_blank" rel="noopener" class="htb-card reveal">
+    <div class="htb-card-header">
+      <span class="htb-platform-name">HackTheBox</span>
+      <span class="htb-link-icon">↗</span>
     </div>
-    <div class="thm-iframe-container"> -->
-      <!--
-        REPLACE YOUR_THM_USER_ID with your numeric ID.
-        How to find it (30 seconds):
-          1. Open tryhackme.com in Chrome while logged in
-          2. Press F12 → Network tab → refresh page
-          3. In the filter box type: userPublicId
-          4. You'll see a request — copy the number after userPublicId=
-        Then replace: ?userPublicId=YOUR_THM_USER_ID
-      -->
-      <iframe
-        src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=Zee25"
-        style="border:none;width:100%;height:110px;display:block;background:#212C42;">
-      </iframe>
-    </div>
-    <div class="thm-badge-footer">
-      <span>tryhackme.com/p/Zee25</span>
-      <span>↗ view profile</span>
+    <div class="htb-card-body">
+      <div class="htb-stats">
+        <div class="htb-stat-block">
+          <span class="htb-stat-num placeholder">[ RANK ]</span>
+          <span class="htb-stat-label">Current Rank</span>
+        </div>
+        <div class="htb-stat-block">
+          <span class="htb-stat-num placeholder">[ # ]</span>
+          <span class="htb-stat-label">Machines Pwned</span>
+        </div>
+        <div class="htb-stat-block">
+          <span class="htb-stat-num placeholder">[ # ]</span>
+          <span class="htb-stat-label">Challenges Solved</span>
+        </div>
+        <div class="htb-stat-block">
+          <span class="htb-stat-num placeholder">[ # ]</span>
+          <span class="htb-stat-label">Points</span>
+        </div>
+      </div>
+      <div class="htb-note">Replace amber [ brackets ] with your real profile stats from hackthebox.com</div>
     </div>
   </a>
-  <!-- <div class="thm-id-notice"> -->
-    <!-- ⚠ <strong>Before publishing:</strong> replace <code>YOUR_THM_USER_ID</code> in the iframe src with your numeric ID.<br> -->
-    <!-- Find it: F12 → Network → refresh → filter <code>userPublicId</code> → copy the number. -->
-  <!-- </div> -->
+
 </div>
-
-<!-- HackTheBox — custom styled card -->
-<!-- <a href="https://profile.hackthebox.com/profile/019e4187-201d-72b3-b9be-b80ab38fc50d"
-   target="_blank" rel="noopener" class="htb-card reveal">
-  <div class="htb-card-header">
-    <span class="htb-platform-name">HackTheBox</span>
-    <span class="htb-link-icon">↗</span>
-  </div>
-  <div class="htb-card-body">
-    <div class="htb-stats">
-      <div class="htb-stat-block">
-        <span class="htb-stat-num placeholder">[ RANK ]</span>
-        <span class="htb-stat-label">Current Rank</span>
-      </div>
-      <div class="htb-stat-block">
-        <span class="htb-stat-num placeholder">[ # ]</span>
-        <span class="htb-stat-label">Machines Pwned</span>
-      </div>
-      <div class="htb-stat-block">
-        <span class="htb-stat-num placeholder">[ # ]</span>
-        <span class="htb-stat-label">Challenges Solved</span>
-      </div>
-      <div class="htb-stat-block">
-        <span class="htb-stat-num placeholder">[ # ]</span>
-        <span class="htb-stat-label">Points</span>
-      </div>
-    </div>
-    <div class="htb-note">Replace amber [ brackets ] with your real profile stats from hackthebox.com</div> -->
-  </div>
-</a>
-
-</div><!-- /ctf-grid -->
 </div>
 </section>
 
 <hr class="rule">
+═══ END CTF PROFILES ═══ -->
 
 <!-- ═══ WRITE-UPS ═══ -->
 <!-- <section id="writeups">
@@ -685,15 +671,15 @@ PLACEHOLDER CARDS — replace with your real write-ups as you complete them
 <div class="cert-card reveal" onclick="openCert('assets/ccna.jpg','CCNA: Introduction to Networks')">
 <h3>CCNA: Introduction to Networks</h3><p>Cisco Networking Academy</p><span class="cert-view">view credential →</span>
 </div>
-<div class="cert-card reveal" onclick="openCert('assets/cybersecurity.jpg','Introduction to Cybersecurity')">
+<!-- <div class="cert-card reveal" onclick="openCert('assets/cybersecurity.jpg','Introduction to Cybersecurity')">
 <h3>Introduction to Cybersecurity</h3><p>Cisco Networking Academy</p><span class="cert-view">view credential →</span>
-</div>
+</div> -->
 <div class="cert-card reveal" onclick="openCert('assets/rh124.jpg','Red Hat System Administration I (RH124)')">
 <h3>Red Hat System Administration I</h3><p>Red Hat Academy — RH124, Ver. 9.3</p><span class="cert-view">view credential →</span>
 </div>
-<div class="cert-card reveal" onclick="openCert('assets/rh134.jpg','Red Hat System Administration II (RH134)')">
+<!-- <div class="cert-card reveal" onclick="openCert('assets/rh134.jpg','Red Hat System Administration II (RH134)')">
 <h3>Red Hat System Administration II</h3><p>Red Hat Academy — RH134, Ver. 9.3</p><span class="cert-view">view credential →</span>
-</div>
+</div> -->
 </div>
 </div>
 </section>
@@ -710,13 +696,13 @@ PLACEHOLDER CARDS — replace with your real write-ups as you complete them
 </div>
 <div class="role-grid">
 
-<div class="role-card reveal">
+<!-- <div class="role-card reveal">
 <div class="role-title">Junior Penetration Tester</div>
 <span class="role-label">Relevant skills</span>
 <div class="role-tags"><span>Nmap</span><span>Metasploit</span><span>Burp Suite</span><span>Enumeration</span><span>Exploitation</span></div>
 <span class="role-label" style="margin-top:12px;">Relevant labs / projects</span>
 <div class="role-tags"><span>THM: Jr Pen Tester Path</span><span>HTB Machines</span><span>Multi-Branch Network Security</span></div>
-</div>
+</div> -->
 
 <!-- <div class="role-card reveal">
 <div class="role-title">SOC Analyst (Tier 1)</div>
@@ -732,6 +718,16 @@ PLACEHOLDER CARDS — replace with your real write-ups as you complete them
 <div class="role-tags"><span>VLANs</span><span>IPSec VPN</span><span>Cisco ASA</span><span>ACLs</span><span>DHCP Snooping</span><span>DAI</span></div>
 <span class="role-label" style="margin-top:12px;">Relevant labs / projects</span>
 <div class="role-tags"><span>Secure Multi-Branch VPN</span><span>Enterprise Network Design</span></div>
+</div>
+
+<div class="role-card reveal">
+<div class="role-title">Cybersecurity Intern</div>
+<span class="role-label">Relevant skills</span>
+<div class="role-tags"><span>Nmap</span><span>Wireshark</span><span>Metasploit</span><span>Burp Suite</span><span>Vulnerability Assessment</span><span>Linux Admin</span><span>Firewall Config</span><span>Python</span></div>
+<span class="role-label" style="margin-top:12px;">Relevant labs / projects</span>
+<div class="role-tags"><span>THM: Jr Pen Tester Path</span><span>Firewall & Proxy Infra</span><span>Multi-Branch Network Security</span><span>AWS CI/CD Deployment</span></div>
+<span class="role-label" style="margin-top:12px;">What I bring</span>
+<div class="role-skills"><span>Hands-on lab experience across offensive & defensive discipline, and the ability to hit the ground running from day one.</span></div>
 </div>
 
 <!-- <div class="role-card reveal">
@@ -756,17 +752,17 @@ PLACEHOLDER CARDS — replace with your real write-ups as you complete them
 <h2>Open to internship & junior security roles</h2>
 <p>Reach out for collaboration, opportunities, or to talk networking and security. I reply to every message.</p>
 <div class="contact-links">
-<a href="mailto:gdhiruthlakruwan@gmail.com" class="btn btn-primary">✉ Email</a>
-<a href="https://github.com/Hiruth-Samarasinghe" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
-<a href="https://linkedin.com/in/Hiruth-Samarasinghe" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
-<a href="https://tryhackme.com/p/Zee25" target="_blank" rel="noopener" class="btn btn-ghost">TryHackMe</a>
+<a href="mailto:dulmethherath@gmail.com" class="btn btn-primary">✉ Email</a>
+<a href="https://github.com/Dulmeth-Arosha" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+<a href="https://www.linkedin.com/in/dulmeth-arosha/" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+<a href="https://tryhackme.com/p/shadowbound404" target="_blank" rel="noopener" class="btn btn-ghost">TryHackMe</a>
 </div>
 </div>
 </div>
 </section>
 
 <footer>
-<div class="wrap">© 2026 Hiruth Samarasinghe — Bandaragama, Sri Lanka — built &amp; secured by hand</div>
+<div class="wrap">© 2026 Dulmeth Arosha — Piliyandala, Sri Lanka — built &amp; secured by hand</div>
 </footer>
 
 <!-- MODAL -->
@@ -866,16 +862,16 @@ navList.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navList
 
 /* terminal */
 const termLines=[
-    {html:'<span class="prompt-user">hiruth</span><span class="prompt-sym">@</span><span class="prompt-path">security</span><span class="prompt-sym">:~$</span> whoami'},
-    {html:'<span class="out-val">Hiruth Samarasinghe</span>'},
+    {html:'<span class="prompt-user">dulmeth</span><span class="prompt-sym">@</span><span class="prompt-path">security</span><span class="prompt-sym">:~$</span> whoami'},
+    {html:'<span class="out-val">Dulmeth Arosha</span>'},
     {html:'<span class="out-dim">Ethical Hacking &amp; Network Security student</span>'},
     {html:'&nbsp;'},
-    {html:'<span class="prompt-user">hiruth</span><span class="prompt-sym">@</span><span class="prompt-path">security</span><span class="prompt-sym">:~$</span> cat focus.txt'},
+    {html:'<span class="prompt-user">dulmeth</span><span class="prompt-sym">@</span><span class="prompt-path">security</span><span class="prompt-sym">:~$</span> cat focus.txt'},
     {html:'<span class="out-key">degree</span> <span class="out-dim">::</span> <span class="out-val">BSc (Hons) Ethical Hacking &amp; Network Security</span>'},
     {html:'<span class="out-key">target</span> <span class="out-dim">::</span> <span class="out-val">Penetration Testing / Offensive Security</span>'},
-    {html:'<span class="out-key">base</span> <span class="out-dim">::</span> <span class="out-val">Bandaragama, Sri Lanka</span>'},
+    {html:'<span class="out-key">base</span> <span class="out-dim">::</span> <span class="out-val">Piliyandala, Sri Lanka</span>'},
     {html:'&nbsp;'},
-    {html:'<span class="prompt-user">hiruth</span><span class="prompt-sym">@</span><span class="prompt-path">security</span><span class="prompt-sym">:~$</span> <span class="cursor"></span>'}
+    {html:'<span class="prompt-user">dulmeth</span><span class="prompt-sym">@</span><span class="prompt-path">security</span><span class="prompt-sym">:~$</span> <span class="cursor"></span>'}
 ];
 
 function typeTerminal(){
